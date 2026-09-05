@@ -21,6 +21,10 @@ a { color: inherit; }
 nav { display: flex; gap: clamp(14px, 2.5vw, 32px); }
 nav a { border-bottom: 1px solid transparent; color: #c9cad0; font-size: 12px; letter-spacing: .8px; padding: 4px 0; text-decoration: none; }
 nav a:hover, nav a:focus-visible, nav a.is-active { border-color: var(--coral); color: #fff; }
+.github-badge { align-items: center; border: 1px solid rgba(120, 217, 221, .65); color: var(--cyan); display: inline-flex; font-size: 11px; font-weight: 800; gap: 7px; letter-spacing: .7px; padding: 6px 9px; text-decoration: none; }
+.github-badge:hover, .github-badge:focus-visible { background: var(--cyan); color: var(--ink); }
+.github-badge-label { color: #fff; }
+.github-badge:hover .github-badge-label, .github-badge:focus-visible .github-badge-label { color: var(--ink); }
 
 .hero { background: var(--ink); color: #fff; min-height: min(740px, 86svh); overflow: hidden; position: relative; }
 .hero::after { background: rgba(9, 11, 17, .36); content: ""; inset: 0; pointer-events: none; position: absolute; }
@@ -110,6 +114,8 @@ footer a { color: var(--cyan); text-decoration: none; }
   .wordmark-mark { height: 22px; width: 22px; }
   nav { gap: 13px; }
   nav a { font-size: 11px; }
+  .github-badge { font-size: 10px; gap: 4px; padding: 5px 6px; }
+  .github-badge-label { display: none; }
   .hero { min-height: min(700px, 84svh); }
   .hero-image { object-position: 57% center; }
   .hero-content { bottom: 62px; left: 20px; right: 20px; }

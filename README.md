@@ -4,6 +4,10 @@
 
 # GPT-6 Astra 国内使用指南与深度实测汇总
 
+[![GitHub stars](https://img.shields.io/github/stars/xianyu110/GPT6?style=flat-square&logo=github)](https://github.com/xianyu110/GPT6/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/xianyu110/GPT6?style=flat-square&logo=github)](https://github.com/xianyu110/GPT6/network/members)
+[![Last commit](https://img.shields.io/github/last-commit/xianyu110/GPT6?style=flat-square&logo=git)](https://github.com/xianyu110/GPT6/commits/main)
+
 > **导读**：最新实测显示，**GPT-6 Astra** 已经突破了传统“对话机器人”的边界，演变为真正具备跨软件操作能力与自主任务执行力的**“全能数字员工”**。本文汇总国内免翻墙体验途径、实测演示 Prompt、关键能力解析与优缺点评测。
 
 ---
