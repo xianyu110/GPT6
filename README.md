@@ -10,13 +10,14 @@
 
 ## 一、 国内可用渠道与访问方式汇总
 
-为方便国内开发者与创作者快速体验，以下整理了目前可直接访问的 API 平台、镜像站与充值渠道：
+为方便国内开发者与创作者快速体验，以下整理了目前可直接访问的 API 平台、镜像站、充值渠道与包月套餐：
 
 | 渠道类型 | 访问网址 | 适用场景 |
 | :--- | :--- | :--- |
 | **全模型 API 聚合站** | [https://tryallapi.com/](https://tryallapi.com/) | 适合开发者调用、低延迟直连、多模型一站式接入 |
 | **GPT 国内高速镜像站** | [https://trygpt.asia/list/#/home](https://trygpt.asia/list/#/home) | 适合网页端免梯直接对话、工作流轻量体验 |
 | **官方代充通道** | [https://chongzhi.trygpt.asia/](https://chongzhi.trygpt.asia/) | 解决海外支付门槛，官方账户直充 |
+| **MomoAI 包月套餐** | [https://momoai.asia/home](https://momoai.asia/home) | 适合持续使用、希望按月订阅套餐的用户 |
 
 ---
 
@@ -41,6 +42,14 @@
 
 ![image-20260905171026033](https://upload.maynor1024.live/file/1788599436459_image-20260905171026033.png)
 > *图注：网页版 GPT 镜像导航大厅，免去复杂的网络配置，开箱即用。*
+
+---
+
+### 4. MomoAI 包月套餐
+
+- **套餐链接**：[https://momoai.asia/home](https://momoai.asia/home)
+
+> *图注：面向持续使用需求的包月套餐入口，购买前请自行核验套餐内容、服务条款与数据处理规则。*
 
 ---
 

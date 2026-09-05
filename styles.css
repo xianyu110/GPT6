@@ -35,7 +35,7 @@ h1 { font-size: clamp(52px, 8vw, 118px); letter-spacing: 0; line-height: .9; mar
 .hero-link span { color: var(--cyan); font-size: 20px; margin-left: 6px; }
 .hero-caption { bottom: 23px; color: #d2d2d7; font-size: 10px; left: clamp(20px, 4vw, 64px); letter-spacing: 1px; margin: 0; position: absolute; z-index: 1; }
 
-.signal-bar { background: var(--cyan); color: var(--ink); display: grid; font-size: 13px; font-weight: 700; grid-template-columns: repeat(3, 1fr); letter-spacing: .3px; padding: 18px clamp(20px, 8vw, 128px); }
+.signal-bar { background: var(--cyan); color: var(--ink); display: grid; font-size: 13px; font-weight: 700; grid-template-columns: repeat(4, 1fr); letter-spacing: .3px; padding: 18px clamp(20px, 8vw, 128px); }
 .signal-bar div { border-left: 1px solid rgba(9, 11, 17, .35); padding-left: 14px; }
 .signal-bar span { color: #3c7376; font-size: 11px; letter-spacing: 1px; margin-right: 8px; }
 
