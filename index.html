@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="GPT-6 Astra 国内使用指南与深度实测汇总：访问方式、实测提示词、能力分析与使用注意事项。"
+    />
+    <title>GPT-6 Astra | 国内使用指南与实测汇总</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body id="top">
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="返回顶部">
+        <span class="wordmark-mark">A</span>
+        <span>ASTRA / FIELD NOTES</span>
+      </a>
+      <nav aria-label="主导航">
+        <a href="#access">访问</a>
+        <a href="#cases">实测</a>
+        <a href="#benchmarks">数据</a>
+        <a href="#notes">注意</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <img class="hero-image" src="assets/hero-astra.jpg" alt="GPT-6 Astra 概念宣传主视觉" />
+        <div class="hero-content">
+          <p class="eyebrow">FIELD REPORT / 2026</p>
+          <h1 id="hero-title">GPT-6 Astra</h1>
+          <p class="hero-deck">
+            从对话窗口走向真实工作流。关于访问方式、跨软件操作与长链任务的国内实测汇总。
+          </p>
+          <a class="hero-link" href="#access">查看可用渠道 <span aria-hidden="true">↓</span></a>
+        </div>
+        <p class="hero-caption">独立制作主视觉 / Intelligence in Motion</p>
+      </section>
+
+      <section class="signal-bar" aria-label="阅读摘要">
+        <div><span>01</span> 国内访问与接入</div>
+        <div><span>02</span> 五组高阶任务测试</div>
+        <div><span>03</span> 基准与真实限制</div>
+      </section>
+
+      <section class="intro section" id="overview">
+        <div class="section-kicker">OVERVIEW</div>
+        <div class="intro-copy">
+          <h2>不止生成答案，开始推进任务。</h2>
+          <p>
+            本页整理 GPT-6 Astra 相关的国内体验入口、可复现实测提示词与能力观察。重点不在单轮回答，而在它是否能把复杂目标拆成可执行步骤，并在软件与工具之间持续推进。
+          </p>
+        </div>
+        <aside class="verification-note" aria-label="信息核验说明">
+          <span>IMPORTANT</span>
+          <p>
+            本页源自投稿整理。产品可用性、能力、基准、价格及第三方服务未附独立可验证的官方来源；使用、购买或引用前请自行核验，并遵守适用条款与法律法规。
+          </p>
+        </aside>
+      </section>
+
+      <section class="section access" id="access">
+        <div class="section-heading">
+          <div class="section-kicker">ACCESS</div>
+          <h2>国内访问路径</h2>
+          <p>面向不同使用习惯的三种入口。第三方服务请先独立验证资质、价格和数据处理规则。</p>
+        </div>
+        <div class="access-list">
+          <article class="access-item" data-reveal>
+            <p class="item-number">01</p>
+            <h3>全模型 API 聚合站</h3>
+            <p>适合开发者调用、低延迟直连与多模型一站式接入。</p>
+            <a href="https://tryallapi.com/" target="_blank" rel="noreferrer">访问 TryAllAPI <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="access-item" data-reveal>
+            <p class="item-number">02</p>
+            <h3>GPT 国内高速镜像站</h3>
+            <p>适合网页端免梯对话，以及轻量级工作流体验。</p>
+            <a href="https://trygpt.asia/list/#/home" target="_blank" rel="noreferrer">打开镜像导航 <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="access-item" data-reveal>
+            <p class="item-number">03</p>
+            <h3>账号代充通道</h3>
+            <p>用于处理海外账户支付门槛。请在付款前确认服务归属。</p>
+            <a href="https://chongzhi.trygpt.asia/" target="_blank" rel="noreferrer">查看充值通道 <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section cases" id="cases">
+        <div class="section-heading case-heading">
+          <div class="section-kicker">FIELD TESTS</div>
+          <h2>五种任务，不只是一句问答。</h2>
+          <p>以下提示词展示面向空间、游戏、视频及真实软件操作的任务方向。</p>
+        </div>
+        <ol class="case-list">
+          <li class="case-item" data-reveal>
+            <div class="case-index">01</div>
+            <div><p class="case-type">SPATIAL REBUILD</p><h3>单图生成 3D 场景</h3></div>
+            <blockquote>“帮我还原这个 3D 场景。”</blockquote>
+            <p class="case-detail">输入参考图片后，尝试完成空间解算并构建可交互的 3D 场景网格。</p>
+          </li>
+          <li class="case-item" data-reveal>
+            <div class="case-index">02</div>
+            <div><p class="case-type">GAME PROTOTYPE</p><h3>经典游戏复刻</h3></div>
+            <blockquote>“帮我制作一个超级马里奥游戏。”</blockquote>
+            <p class="case-detail">覆盖关卡脚本、物理碰撞与逻辑调试，生成可试玩原型。</p>
+          </li>
+          <li class="case-item" data-reveal>
+            <div class="case-index">03</div>
+            <div><p class="case-type">MEDIA PRODUCTION</p><h3>专属宣传片开发</h3></div>
+            <blockquote>“为 GPT-6 Astra 制作一个宣传视频，要求连续流畅的转场、高级的动效、丰富的视觉效果，直接在新的文件夹里创建，一定要独立设计。”</blockquote>
+            <p class="case-detail">任务涵盖时间轴规划、素材管理与动效视频工程的生成。</p>
+          </li>
+          <li class="case-item" data-reveal>
+            <div class="case-index">04</div>
+            <div><p class="case-type">WORLD BUILDING</p><h3>恐怖体素沙盒</h3></div>
+            <blockquote>“在新的文件夹里，制作一个类似《我的世界》的游戏，高还原度，但是整体是恐怖氛围的。”</blockquote>
+            <p class="case-detail">结合体素渲染机制与低光照氛围，为沙盒玩法构建暗黑风格。</p>
+          </li>
+          <li class="case-item" data-reveal>
+            <div class="case-index">05</div>
+            <div><p class="case-type">OS AGENT</p><h3>画板自动临摹</h3></div>
+            <blockquote>“接管我的浏览器，在 Canvas 站点上我有一幅图片，你使用其中的画笔工具，尝试复刻那张图片。”</blockquote>
+            <p class="case-detail">通过视觉反馈、鼠标轨迹与笔刷参数，持续迭代画面复刻。</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section capabilities" id="capabilities">
+        <div class="section-kicker">CAPABILITIES</div>
+        <div class="capability-grid">
+          <article data-reveal>
+            <p class="capability-number">01</p>
+            <h2>看见屏幕，再完成操作。</h2>
+            <p>通过识别屏幕画面、控制光标点击与键盘输入，尝试完成排障、多表联动与依赖安装等真实电脑任务。</p>
+          </article>
+          <article data-reveal>
+            <p class="capability-number">02</p>
+            <h2>进入引擎，推进原型。</h2>
+            <p>不只产生代码片段，也可将资产摆放、灯光物理、试玩与 Bug 排查整合到游戏原型的制作循环中。</p>
+          </article>
+          <article data-reveal>
+            <p class="capability-number">03</p>
+            <h2>处理长链路推理。</h2>
+            <p>面向数学与科研数据分析的观察强调：价值取决于多阶段推理是否能稳定衔接，而非单题得分本身。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section benchmarks" id="benchmarks">
+        <div class="section-heading">
+          <div class="section-kicker">BENCHMARKS</div>
+          <h2>数据与价格</h2>
+          <p>以下数字为投稿资料中的主张，并非本仓库自行测试或背书的结果。</p>
+        </div>
+        <div class="table-wrap" data-reveal>
+          <table>
+            <thead><tr><th>维度 / 项目</th><th>测试表现 / 定价</th><th>说明</th></tr></thead>
+            <tbody>
+              <tr><td>ARC-AGI-3 悟性测试</td><td><strong>99.9%</strong></td><td>衡量面对陌生抽象任务时的泛化推理能力</td></tr>
+              <tr><td>BenchCAD 几何重建</td><td><strong>95.9%</strong></td><td>根据参考图像或多视角点云还原 CAD 模型的准确度</td></tr>
+              <tr><td>FrontierMath Level-4</td><td><strong>97.6%</strong></td><td>高难度前沿数学科研解题得分</td></tr>
+              <tr><td>API 输入价格</td><td><strong>$10 / 100万 Token</strong></td><td>资料称约为上一代 Sol 的 2.5 倍</td></tr>
+              <tr><td>API 输出价格</td><td><strong>$50 / 100万 Token</strong></td><td>资料称任务综合成本与上代基本持平</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="section notes" id="notes">
+        <div class="section-heading">
+          <div class="section-kicker">REALITY CHECK</div>
+          <h2>真实体感，也包括限制。</h2>
+        </div>
+        <div class="note-grid">
+          <article data-reveal><span>01</span><h3>长任务耐久度</h3><p>连续高强度执行约 30 分钟时，可能出现中断或无响应，需要人工提示介入。</p></article>
+          <article data-reveal><span>02</span><h3>固定审美偏好</h3><p>UI 与文案容易出现固化风格；配色、密度与表达仍应由人主动设定边界。</p></article>
+          <article data-reveal><span>03</span><h3>界面控件堆料</h3><p>自主生成前端时，次级按钮与辅助标签可能过多，留白与信息层级需要审阅。</p></article>
+          <article data-reveal><span>04</span><h3>编程并非全胜</h3><p>在特定编码场景下，其他轻量模型仍可能以微弱优势领先，应以实际任务测试为准。</p></article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>GPT-6 Astra / 国内使用指南与深度实测汇总</p>
+      <a href="#top">回到顶部 ↑</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
