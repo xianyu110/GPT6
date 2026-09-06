@@ -10,6 +10,8 @@
 
 > **导读**：最新实测显示，**GPT-6 Astra** 已经突破了传统“对话机器人”的边界，演变为真正具备跨软件操作能力与自主任务执行力的**“全能数字员工”**。本文汇总国内免翻墙体验途径、实测演示 Prompt、关键能力解析与优缺点评测。
 
+> 配套入口： [在线指南页面](https://xianyu110.github.io/GPT6/) · [Astra 案例作品集](https://xianyu110.github.io/awesome-gpt-6-astra/) · [案例合集仓库](https://github.com/xianyu110/awesome-gpt-6-astra)
+
 ---
 
 ## 一、 国内可用渠道与访问方式汇总

@@ -25,6 +25,10 @@ nav a:hover, nav a:focus-visible, nav a.is-active { border-color: var(--coral); 
 .github-badge:hover, .github-badge:focus-visible { background: var(--cyan); color: var(--ink); }
 .github-badge-label { color: #fff; }
 .github-badge:hover .github-badge-label, .github-badge:focus-visible .github-badge-label { color: var(--ink); }
+.showcase-badge { align-items: center; border: 1px solid rgba(233, 130, 181, .7); color: var(--coral); display: inline-flex; font-size: 11px; font-weight: 800; gap: 7px; letter-spacing: .7px; padding: 6px 9px; text-decoration: none; }
+.showcase-badge:hover, .showcase-badge:focus-visible { background: var(--coral); color: var(--ink); }
+.showcase-badge-label { color: #fff; }
+.showcase-badge:hover .showcase-badge-label, .showcase-badge:focus-visible .showcase-badge-label { color: var(--ink); }
 
 .hero { background: var(--ink); color: #fff; min-height: min(740px, 86svh); overflow: hidden; position: relative; }
 .hero::after { background: rgba(9, 11, 17, .36); content: ""; inset: 0; pointer-events: none; position: absolute; }
@@ -37,6 +41,8 @@ h1 { font-size: clamp(52px, 8vw, 118px); letter-spacing: 0; line-height: .9; mar
 .hero-deck { font-size: clamp(17px, 2vw, 23px); line-height: 1.55; margin-bottom: 28px; max-width: 580px; }
 .hero-link { border-bottom: 1px solid var(--cyan); color: #fff; font-size: 14px; font-weight: 700; letter-spacing: .5px; padding-bottom: 7px; text-decoration: none; }
 .hero-link span { color: var(--cyan); font-size: 20px; margin-left: 6px; }
+.hero-link-secondary { border-color: var(--coral); margin-left: 24px; }
+.hero-link-secondary span { color: var(--coral); }
 .hero-caption { bottom: 23px; color: #d2d2d7; font-size: 10px; left: clamp(20px, 4vw, 64px); letter-spacing: 1px; margin: 0; position: absolute; z-index: 1; }
 
 .signal-bar { background: var(--cyan); color: var(--ink); display: grid; font-size: 13px; font-weight: 700; grid-template-columns: repeat(4, 1fr); letter-spacing: .3px; padding: 18px clamp(20px, 8vw, 128px); }
@@ -116,9 +122,12 @@ footer a { color: var(--cyan); text-decoration: none; }
   nav a { font-size: 11px; }
   .github-badge { font-size: 10px; gap: 4px; padding: 5px 6px; }
   .github-badge-label { display: none; }
+  .showcase-badge { font-size: 10px; gap: 4px; padding: 5px 6px; }
+  .showcase-badge-label { display: none; }
   .hero { min-height: min(700px, 84svh); }
   .hero-image { object-position: 57% center; }
   .hero-content { bottom: 62px; left: 20px; right: 20px; }
+  .hero-link-secondary { display: block; margin: 20px 0 0; width: fit-content; }
   .hero-caption { font-size: 9px; left: 20px; }
   .signal-bar { gap: 10px; grid-template-columns: 1fr; padding: 17px 20px; }
   .signal-bar div { border-left: 0; padding-left: 0; }
